@@ -1,6 +1,15 @@
 '''ruby
 
 def find_element_index(array, value_to_find)
+  friends = ["Sam", "Bob", "Tom"]
+end
+
+counter = 0
+friends = ["Sam", "Bob", "Tom"]
+
+while friends[counter] do
+  puts friends[counter]
+  counter += 1
 end
 
 def find_max_value(array)
